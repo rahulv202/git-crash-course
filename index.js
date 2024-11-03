@@ -5,3 +5,7 @@ const dob = '1997-08-19';
 function sayName() {
     console.log('My name is ' + name);
 }
+
+function isAbove18() {
+    return age > 18;
+}
